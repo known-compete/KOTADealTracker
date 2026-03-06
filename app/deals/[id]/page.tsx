@@ -55,7 +55,7 @@ export default function DealDetailPage() {
         setLoading(false);
         return;
       }
-      setDeal(data);
+      setDeal(data as Deal);
       setLoading(false);
     }
 
